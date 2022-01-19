@@ -1,0 +1,93 @@
+---
+title: "ESTATÍSTICA"
+author: "TIAGO TOUSO"
+date: "24/04/2021"
+output: html_document
+---
+
+```{r}
+idades <- sample(c(18:75), 1000, replace = TRUE)
+```
+
+```{r}
+idades
+```
+
+```{r}
+stem(idades)
+```
+
+```{r}
+hist(idades)
+```
+
+```{r}
+boxplot(idades)
+```
+```{r}
+mean(idades)
+```
+
+```{r}
+median(idades)
+```
+
+```{r}
+tabela <- table(idades)
+tabela[tabela == max(tabela)]
+```
+```{r}
+summary(idades)
+```
+
+```{r}
+range(idades)
+```
+
+```{r}
+quantile(idades)
+```
+
+```{r}
+quantile(idades, probs = seq(0, 1, 0.10))
+```
+```{r}
+IQR(idades)
+```
+```{r}
+diff(range(idades))
+```
+```{r}
+var(idades)
+```
+```{r}
+sd(idades)
+```
+
+```{r}
+classe <- seq(18, 75, 8)
+frequencia <- table(cut(idades, breaks = classe, right = FALSE))
+frequencia
+```
+
+```{r}
+f_ca <- cumsum(frequencia)
+f_rel <- round(prop.table(frequencia) * 100, 2)
+f_rel_ca <- cumsum(f_rel)
+```
+
+```{r}
+tabela <- cbind(frequencia, f_ca, f_rel, f_rel_ca)
+tabela
+```
+```{r}
+summary(idades)
+```
+```{r}
+names(sort(-table(idades)))[1]
+```
+```{r}
+barplot(table(idades))
+```
+
+

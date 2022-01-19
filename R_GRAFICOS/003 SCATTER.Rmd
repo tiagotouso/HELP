@@ -1,0 +1,44 @@
+---
+title: "SCATTER"
+output: html_document
+---
+
+```{r}
+example(points)
+```
+
+```{r}
+x <- c(1:100)
+y <- seq(-pi, pi, length.out = 100)
+ay <- sample(y, 100, replace = FALSE)
+
+plot(x, ay, col = "red", cex = 2)
+```
+
+```{r}
+x <- c(1:100)
+y <- seq(-pi, pi, length.out = 100)
+ay <- sample(y, 100, replace = FALSE)
+
+by <- sample(y, 100, replace = FALSE)
+
+cy <- sample(y, 100, replace = FALSE)
+
+plot(x, ay, col = "red", cex = 2)
+points(x, by, col = "blue", cex = 1)
+points(x, cy, col = "green", cex = 3)
+```
+
+```{r}
+x <- c(1:100)
+y <- seq(-pi, pi, length.out = 100)
+ay <- sample(y, 100, replace = FALSE)
+
+by <- sample(y, 100, replace = FALSE)
+
+cy <- sample(y, 100, replace = FALSE)
+
+plot(x, ay, col = "red", cex = 2, pch = 2)
+points(x, by, col = "blue", cex = 1, pch = 3)
+points(x, cy, col = "green", cex = 3)
+```

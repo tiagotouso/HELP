@@ -1,0 +1,49 @@
+---
+title: "BAR"
+output: html_document
+---
+
+```{r}
+example("barplot")
+```
+
+
+```{r}
+x <- c("A", "B", "C", "D")
+y <- c(2, 4, 6, 8)
+
+barplot(y, names.arg = x)
+```
+
+```{r}
+x <- c("A", "B", "C", "D")
+y <- c(2, 4, 6, 8)
+
+barplot(y, names.arg = x, col = "red")
+```
+
+```{r}
+x <- c("A", "B", "C", "D")
+y <- c(2, 4, 6, 8)
+
+barplot(y, names.arg = x, density = 10)
+```
+
+```{r}
+x <- c("A", "B", "C", "D")
+y <- c(2, 4, 6, 8)
+
+barplot(y, names.arg = x, width = c(1,2,3,4))
+```
+
+```{r}
+x <- c("A", "B", "C", "D")
+y <- c(2, 4, 6, 8)
+
+barplot(y, names.arg = x, horiz = TRUE)
+```
+
+
+
+
+

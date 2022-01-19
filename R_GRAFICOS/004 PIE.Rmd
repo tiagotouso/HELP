@@ -1,0 +1,51 @@
+---
+title: "PIE"
+output: html_document
+---
+
+```{r}
+example(pie)
+```
+
+```{r}
+pie(c(10, 20, 30))
+```
+
+```{r}
+q <- c(10, 20, 30)
+l <- c("Crianças", "Mulheres", "Homens")
+pie(q, l)
+```
+
+```{r}
+q <- c(10, 20, 30)
+l <- c("Crianças", "Mulheres", "Homens")
+
+pie(q, l, init.angle = 90)
+```
+
+```{r}
+q <- c(10, 20, 30)
+l <- c("Crianças", "Mulheres", "Homens")
+
+pie(q, l, init.angle = 90, main="Pessoas")
+```
+
+```{r}
+q <- c(10, 20, 30)
+l <- c("Crianças", "Mulheres", "Homens")
+
+color <- c("blue", "yellow", "green")
+
+pie(q, l, init.angle = 90, main="Pessoas", col = color)
+```
+
+```{r}
+q <- c(10, 20, 30)
+l <- c("Crianças", "Mulheres", "Homens")
+
+color <- c("blue", "yellow", "green")
+
+pie(q, l, init.angle = 90, main="Pessoas", col = color)
+legend("bottomright", l, fill = color)
+```

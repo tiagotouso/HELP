@@ -1,0 +1,45 @@
+---
+title: "LINES"
+output: html_document
+---
+
+```{r}
+example(lines)
+```
+
+```{r}
+plot(1:10, type="l")
+```
+
+```{r}
+plot(1:10, type="l", col="blue")
+```
+
+```{r}
+plot(1:10, type="l", lwd=2)
+```
+
+```{r}
+plot(seq(1, 6, length.out = 10), type = "l", lwd=5)
+lines(rep(1, 10), type = "l", lwd=5, lty=1)
+lines(rep(2, 10), type = "l", lwd=5, lty=2)
+lines(rep(3, 10), type = "l", lwd=5, lty=3)
+lines(rep(4, 10), type = "l", lwd=5, lty=4)
+lines(rep(5, 10), type = "l", lwd=5, lty=5)
+lines(rep(6, 10), type = "l", lwd=5, lty=6)
+```
+
+```{r}
+line1 <- c(1,2,3,4,5,10)
+line2 <- c(2,5,7,8,9,10)
+
+plot(line1, type = "l", col = "blue")
+lines(line2, type="l", col = "red")
+```
+
+```{r}
+x <- seq(- pi, pi, length.out = 100)
+plot(sin(x), type = "l")
+lines(cos(x), col = "red")
+lines(tan(x), col = "blue")
+```
