@@ -1,6 +1,6 @@
 ---
 title: "LINES"
-output: html_document
+output: pdf_document
 ---
 
 ```{r}
@@ -36,7 +36,6 @@ line2 <- c(2,5,7,8,9,10)
 plot(line1, type = "l", col = "blue")
 lines(line2, type="l", col = "red")
 ```
-
 ```{r}
 x <- seq(- pi, pi, length.out = 100)
 plot(sin(x), type = "l")

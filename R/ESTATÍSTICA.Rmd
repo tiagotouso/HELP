@@ -1,8 +1,7 @@
 ---
-title: "ESTATÍSTICA"
+title: "ESTATÍSTICA BÁSICA"
 output:
   pdf_document: default
-  html_document: default
 ---
 
 ```{r}

@@ -1,6 +1,6 @@
 ---
 title: "BAR"
-output: html_document
+output: pdf_document
 ---
 
 ```{r}
@@ -42,8 +42,5 @@ y <- c(2, 4, 6, 8)
 
 barplot(y, names.arg = x, horiz = TRUE)
 ```
-
-
-
 
 

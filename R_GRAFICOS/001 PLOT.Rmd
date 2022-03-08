@@ -1,12 +1,12 @@
 ---
 title: "PLOT"
-output: html_document
+output:
+  pdf_document: default
 ---
 
 ```{r}
 example(plot)
 ```
-
 
 ```{r}
 plot(1, 3)
