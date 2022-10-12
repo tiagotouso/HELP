@@ -15,7 +15,8 @@ txt = calendar.month(2022, 6)
 print(txt)
 ```
 
-<pre>     June 2022
+<pre>
+     June 2022
 Mo Tu We Th Fr Sa Su
        1  2  3  4  5
  6  7  8  9 10 11 12
@@ -34,7 +35,8 @@ txt = c.formatmonth(2022, 12)
 print(txt)
 ```
 
-<pre>   December 2022
+<pre>
+   December 2022
 Mo Tu We Th Fr Sa Su
           1  2  3  4
  5  6  7  8  9 10 11
@@ -53,7 +55,8 @@ c = calendar.TextCalendar(calendar.SUNDAY).formatyear(2022)
 print(c)
 ```
 
-<pre>                                  2022
+<pre>
+                                  2022
 
       January                   February                   March
 Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa
@@ -102,6 +105,7 @@ for name in calendar.month_name:
 ```
 
 <pre>
+
 January
 February
 March
@@ -123,7 +127,8 @@ for day in calendar.day_name:
     print(day)
 ```
 
-<pre>Monday
+<pre>
+Monday
 Tuesday
 Wednesday
 Thursday
@@ -141,7 +146,8 @@ for i in c.itermonthdays(2022, 2):
     print(i)
 ```
 
-<pre>0
+<pre>
+0
 0
 0
 0
@@ -188,7 +194,8 @@ txt = hc.formatmonth(2022, 12)
 print(txt)
 ```
 
-<pre><table border="0" cellpadding="0" cellspacing="0" class="month">
+<pre>
+<table border="0" cellpadding="0" cellspacing="0" class="month">
 <tr><th colspan="7" class="month">December 2022</th></tr>
 <tr><th class="sun">Sun</th><th class="mon">Mon</th><th class="tue">Tue</th><th class="wed">Wed</th><th class="thu">Thu</th><th class="fri">Fri</th><th class="sat">Sat</th></tr>
 <tr><td class="noday">&nbsp;</td><td class="noday">&nbsp;</td><td class="noday">&nbsp;</td><td class="noday">&nbsp;</td><td class="thu">1</td><td class="fri">2</td><td class="sat">3</td></tr>
