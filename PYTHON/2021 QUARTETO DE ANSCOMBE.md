@@ -72,7 +72,7 @@ for cl in dados.columns:
 dados
 ```
 
-
+<html>
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -226,6 +226,7 @@ dados
   </tbody>
 </table>
 </div>
+</html>
 
 
 ```python
