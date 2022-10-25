@@ -110,7 +110,7 @@ plt.fill_between(xci, yci)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_000.png)
+![image](img//2022_MONTE_CARLO_ipynb_000.png)
 
 
 # SIMULAÇÃO PARA ESTIMAR O PI
@@ -123,7 +123,7 @@ pi(10)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_001.png)
+![image](img//2022_MONTE_CARLO_ipynb_001.png)
 
 
 ```python
@@ -133,7 +133,7 @@ pi(100)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_002.png)
+![image](img//2022_MONTE_CARLO_ipynb_002.png)
 
 
 ```python
@@ -143,7 +143,7 @@ pi(1000)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_003.png)
+![image](img//2022_MONTE_CARLO_ipynb_003.png)
 
 
 ```python
@@ -153,7 +153,7 @@ pi(10000)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_004.png)
+![image](img//2022_MONTE_CARLO_ipynb_004.png)
 
 
 ```python
@@ -163,7 +163,7 @@ pi(10000)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_005.png)
+![image](img//2022_MONTE_CARLO_ipynb_005.png)
 
 
 ```python
@@ -173,5 +173,5 @@ pi(100000)
 ```
 
 
-![image](img//2022 MONTE CARLO_ipynb_006.png)
+![image](img//2022_MONTE_CARLO_ipynb_006.png)
 
