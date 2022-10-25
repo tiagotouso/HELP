@@ -1,4 +1,4 @@
-﻿# EMMET
+# EMMET
 
 ## HEAD
 
@@ -456,7 +456,3 @@ ul>li.item$@10*2>p{Text $@3}
     </li>
 </ul>
 ```
-
-
-
-

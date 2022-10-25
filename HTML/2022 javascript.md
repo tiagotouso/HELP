@@ -20,7 +20,7 @@
     * src
 
 # COMENTÁRIO
-```
+```html
 // Comentário
 
 /* Comentário */
