@@ -21,14 +21,13 @@ import matplotlib.pyplot as plt
 %watermark --iversions
 ```
 
-
-<pre>
+```
 Python 3.9.7
 pandas    : 1.3.4
 matplotlib: 3.4.3
 numpy     : 1.20.3
 
-</pre>
+```
 
 
 ```python
@@ -75,7 +74,19 @@ dados
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -225,7 +236,19 @@ dados.describe()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
 
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">

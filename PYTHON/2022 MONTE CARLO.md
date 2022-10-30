@@ -18,13 +18,12 @@ import matplotlib.pyplot as plt
 %watermark --iversions
 ```
 
-
-<pre>
+```
 Python 3.9.7
 numpy     : 1.20.3
 matplotlib: 3.4.3
 
-</pre>
+```
 
 
 ```python
@@ -122,6 +121,11 @@ plt.fill_between(xci, yci)
 pi(10)
 ```
 
+```
+Probabilidade: 0.7
+PI: 2.8
+```
+
 
 ![image](img//2022_MONTE_CARLO_ipynb_001.png)
 
@@ -130,6 +134,11 @@ pi(10)
 # SIMULAR MONTE CARLO
 
 pi(100)
+```
+
+```
+Probabilidade: 0.79
+PI: 3.16
 ```
 
 
@@ -142,6 +151,11 @@ pi(100)
 pi(1000)
 ```
 
+```
+Probabilidade: 0.776
+PI: 3.104
+```
+
 
 ![image](img//2022_MONTE_CARLO_ipynb_003.png)
 
@@ -150,6 +164,11 @@ pi(1000)
 # SIMULAR MONTE CARLO
 
 pi(10000)
+```
+
+```
+Probabilidade: 0.7925
+PI: 3.17
 ```
 
 
@@ -162,6 +181,11 @@ pi(10000)
 pi(10000)
 ```
 
+```
+Probabilidade: 0.7837
+PI: 3.1348
+```
+
 
 ![image](img//2022_MONTE_CARLO_ipynb_005.png)
 
@@ -170,6 +194,11 @@ pi(10000)
 # SIMULAR MONTE CARLO
 
 pi(100000)
+```
+
+```
+Probabilidade: 0.78434
+PI: 3.13736
 ```
 
 
