@@ -340,7 +340,7 @@ plt.scatter(dados[0], dados[1])
 ```
 
 
-![image](img//2021_QUARTETO_DE_ANSCOMBE_ipynb_000.png)
+![image](img//md_ipynb_000.png)
 
 
 ```python
@@ -350,7 +350,7 @@ plt.scatter(dados[2], dados[3])
 ```
 
 
-![image](img//2021_QUARTETO_DE_ANSCOMBE_ipynb_001.png)
+![image](img//md_ipynb_001.png)
 
 
 ```python
@@ -360,7 +360,7 @@ plt.scatter(dados[4], dados[5])
 ```
 
 
-![image](img//2021_QUARTETO_DE_ANSCOMBE_ipynb_002.png)
+![image](img//md_ipynb_002.png)
 
 
 ```python
@@ -370,7 +370,7 @@ plt.scatter(dados[6], dados[7])
 ```
 
 
-![image](img//2021_QUARTETO_DE_ANSCOMBE_ipynb_003.png)
+![image](img//md_ipynb_003.png)
 
 
 ```python
@@ -382,5 +382,5 @@ plt.scatter(dados[6], dados[7])
 ```
 
 
-![image](img//2021_QUARTETO_DE_ANSCOMBE_ipynb_004.png)
+![image](img//md_ipynb_004.png)
 
