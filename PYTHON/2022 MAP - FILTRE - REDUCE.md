@@ -1,4 +1,6 @@
+
 # MAP - FILTRE - REDUCE
+
 
 ```python
 # IMPORTA OS MÓDULOS
@@ -9,14 +11,13 @@ import random as rd
 import numpy as np
 ```
 
+
 ```python
 # SORTEIAR UM NÚMERO
 
 rd.sample([1, 2, 3, 4], 1)
 ```
 
-<pre>
-[1]</pre>
 
 ```python
 # CRIAR UMA TABELA COM VALORES ALEATÓRIOS
@@ -35,13 +36,15 @@ print()
 print(tabela)
 ```
 
-<pre>
+```
 {'sexo': 'f', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000}
 
 [{'sexo': 'f', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000}, {'sexo': 'm', 'idade': 31, 'estado_civil': 'casado', 'salario': 4000}, {'sexo': 'm', 'idade': 34, 'estado_civil': 'solteiro', 'salario': 3000}, {'sexo': 'f', 'idade': 54, 'estado_civil': 'solteiro', 'salario': 4000}, {'sexo': 'f', 'idade': 57, 'estado_civil': 'casado', 'salario': 8000}, {'sexo': 'm', 'idade': 23, 'estado_civil': 'casado', 'salario': 2000}, {'sexo': 'f', 'idade': 52, 'estado_civil': 'solteiro', 'salario': 8000}, {'sexo': 'm', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000}, {'sexo': 'm', 'idade': 42, 'estado_civil': 'solteiro', 'salario': 3000}, {'sexo': 'f', 'idade': 51, 'estado_civil': 'solteiro', 'salario': 2000}, {'sexo': 'm', 'idade': 36, 'estado_civil': 'viúvo', 'salario': 7000}, {'sexo': 'f', 'idade': 33, 'estado_civil': 'solteiro', 'salario': 4000}, {'sexo': 'f', 'idade': 38, 'estado_civil': 'viúvo', 'salario': 6000}, {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 8000}, {'sexo': 'm', 'idade': 19, 'estado_civil': 'solteiro', 'salario': 2000}, {'sexo': 'm', 'idade': 67, 'estado_civil': 'solteiro', 'salario': 2000}, {'sexo': 'f', 'idade': 46, 'estado_civil': 'casado', 'salario': 8000}, {'sexo': 'f', 'idade': 45, 'estado_civil': 'solteiro', 'salario': 7000}, {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 6000}, {'sexo': 'f', 'idade': 26, 'estado_civil': 'casado', 'salario': 5000}]
-</pre>
+```
+
 
 # MAP
+
 
 ```python
 # USANDO A FUNÇÃO MAP
@@ -53,8 +56,6 @@ valores_idade = map(lambda m: m['idade'], tabela)
 valores_idade
 ```
 
-<pre>
-<map at 0x1eb68830430></pre>
 
 ```python
 # ACESSANDO OS ITERATOR
@@ -63,13 +64,14 @@ for _ in range(5):
     print(next(valores_idade))
 ```
 
-<pre>
+```
 22
 31
 34
 54
 57
-</pre>
+```
+
 
 ```python
 # TRANSFORMANDO OS ITERATOR
@@ -77,9 +79,10 @@ for _ in range(5):
 print(list(valores_idade))
 ```
 
-<pre>
+```
 [23, 52, 22, 42, 51, 36, 33, 38, 47, 19, 67, 46, 45, 47, 26]
-</pre>
+```
+
 
 ```python
 # ITERATOR LIBERADOS
@@ -87,9 +90,10 @@ print(list(valores_idade))
 print(list(valores_idade))
 ```
 
-<pre>
+```
 []
-</pre>
+```
+
 
 ```python
 # USAR MAP PARA CALCULAR A MÉDIA
@@ -98,10 +102,9 @@ lista_idade = list(map(lambda m: m['idade'], tabela))
 np.mean(lista_idade)
 ```
 
-<pre>
-39.6</pre>
 
 # FILTER
+
 
 ```python
 # USANDO FIILTER
@@ -109,17 +112,6 @@ np.mean(lista_idade)
 list(filter(lambda m: m['sexo'] == 'm', tabela))
 ```
 
-<pre>
-[{'sexo': 'm', 'idade': 31, 'estado_civil': 'casado', 'salario': 4000},
- {'sexo': 'm', 'idade': 34, 'estado_civil': 'solteiro', 'salario': 3000},
- {'sexo': 'm', 'idade': 23, 'estado_civil': 'casado', 'salario': 2000},
- {'sexo': 'm', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000},
- {'sexo': 'm', 'idade': 42, 'estado_civil': 'solteiro', 'salario': 3000},
- {'sexo': 'm', 'idade': 36, 'estado_civil': 'viúvo', 'salario': 7000},
- {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 8000},
- {'sexo': 'm', 'idade': 19, 'estado_civil': 'solteiro', 'salario': 2000},
- {'sexo': 'm', 'idade': 67, 'estado_civil': 'solteiro', 'salario': 2000},
- {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 6000}]</pre>
 
 ```python
 # USANDO O FILTER
@@ -127,8 +119,6 @@ list(filter(lambda m: m['sexo'] == 'm', tabela))
 list(filter(lambda m: m['idade'] < 20, tabela))
 ```
 
-<pre>
-[{'sexo': 'm', 'idade': 19, 'estado_civil': 'solteiro', 'salario': 2000}]</pre>
 
 ```python
 # USANDO O FILTER
@@ -136,16 +126,6 @@ list(filter(lambda m: m['idade'] < 20, tabela))
 list(filter(lambda m: m['idade'] > 20 and m['estado_civil'] == 'casado', tabela))
 ```
 
-<pre>
-[{'sexo': 'f', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000},
- {'sexo': 'm', 'idade': 31, 'estado_civil': 'casado', 'salario': 4000},
- {'sexo': 'f', 'idade': 57, 'estado_civil': 'casado', 'salario': 8000},
- {'sexo': 'm', 'idade': 23, 'estado_civil': 'casado', 'salario': 2000},
- {'sexo': 'm', 'idade': 22, 'estado_civil': 'casado', 'salario': 7000},
- {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 8000},
- {'sexo': 'f', 'idade': 46, 'estado_civil': 'casado', 'salario': 8000},
- {'sexo': 'm', 'idade': 47, 'estado_civil': 'casado', 'salario': 6000},
- {'sexo': 'f', 'idade': 26, 'estado_civil': 'casado', 'salario': 5000}]</pre>
 
 ```python
 # USANDO O FILTER COM MAP
@@ -157,8 +137,6 @@ list(
 )
 ```
 
-<pre>
-[7000, 4000, 8000, 2000, 7000, 8000, 8000, 6000, 5000]</pre>
 
 ```python
 # USANDO O FILTER COM MAP PARA CALCULAR A MÉDIA
@@ -172,10 +150,9 @@ np.mean(
 )
 ```
 
-<pre>
-6111.111111111111</pre>
 
 # REDUCE
+
 
 ```python
 # USANDO O REDUCE PARA SOMAR
@@ -183,8 +160,6 @@ np.mean(
 reduce(lambda soma, t: soma + t['salario'], tabela, 0)
 ```
 
-<pre>
-103000</pre>
 
 ```python
 # USANDO O MAP PARA SOMAR O TOTAL
@@ -192,8 +167,6 @@ reduce(lambda soma, t: soma + t['salario'], tabela, 0)
 np.sum(list(map(lambda v: v['salario'], tabela)))
 ```
 
-<pre>
-103000</pre>
 
 ```python
 # USANDO O REDUCE PARA CALCULAR A MÉDIA
@@ -201,8 +174,6 @@ np.sum(list(map(lambda v: v['salario'], tabela)))
 reduce(lambda soma, t: soma + t['salario'] / len(tabela), tabela, 0)
 ```
 
-<pre>
-5150.0</pre>
 
 ```python
 # USANDO O MAP PARA CALCULAR A MÉIA
@@ -210,8 +181,6 @@ reduce(lambda soma, t: soma + t['salario'] / len(tabela), tabela, 0)
 np.mean(list(map(lambda v: v['salario'], tabela)))
 ```
 
-<pre>
-5150.0</pre>
 
 ```python
 # REDUCE COM FILTER
@@ -222,8 +191,6 @@ reduce(lambda soma, tabela:
       0)
 ```
 
-<pre>
-55000</pre>
 
 ```python
 # USANDO O FILTER COM MAP PARA CALCULAR A MÉDIA
@@ -236,7 +203,4 @@ np.sum(
     )
 )
 ```
-
-<pre>
-55000</pre>
 

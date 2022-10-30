@@ -1,4 +1,6 @@
+
 # 2022 CALENDÁRIO
+
 
 ```python
 # IMPORTAR MÓDULO
@@ -6,7 +8,9 @@
 import calendar
 ```
 
+
 # CALENDÁRIO MÊS
+
 
 ```python
 # PRINT CALENDÁRIO MÊS
@@ -15,7 +19,7 @@ txt = calendar.month(2022, 6)
 print(txt)
 ```
 
-<pre>
+```
      June 2022
 Mo Tu We Th Fr Sa Su
        1  2  3  4  5
@@ -24,7 +28,8 @@ Mo Tu We Th Fr Sa Su
 20 21 22 23 24 25 26
 27 28 29 30
 
-</pre>
+```
+
 
 ```python
 # PRINT CALENDÁRIO MÊS
@@ -35,7 +40,7 @@ txt = c.formatmonth(2022, 12)
 print(txt)
 ```
 
-<pre>
+```
    December 2022
 Mo Tu We Th Fr Sa Su
           1  2  3  4
@@ -44,9 +49,11 @@ Mo Tu We Th Fr Sa Su
 19 20 21 22 23 24 25
 26 27 28 29 30 31
 
-</pre>
+```
+
 
 # CALENDÁRIO ANO
+
 
 ```python
 # PRINT CALENDÁRIO ANO
@@ -55,7 +62,7 @@ c = calendar.TextCalendar(calendar.SUNDAY).formatyear(2022)
 print(c)
 ```
 
-<pre>
+```
                                   2022
 
       January                   February                   March
@@ -93,9 +100,11 @@ Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa
 23 24 25 26 27 28 29      27 28 29 30               25 26 27 28 29 30 31
 30 31
 
-</pre>
+```
+
 
 # LOOP NAS PROPRIEDADES
+
 
 ```python
 # PRINT MESES
@@ -104,7 +113,7 @@ for name in calendar.month_name:
     print(name)
 ```
 
-<pre>
+```
 
 January
 February
@@ -118,7 +127,8 @@ September
 October
 November
 December
-</pre>
+```
+
 
 ```python
 # PRINT DIAS DA SEMANA
@@ -127,7 +137,7 @@ for day in calendar.day_name:
     print(day)
 ```
 
-<pre>
+```
 Monday
 Tuesday
 Wednesday
@@ -135,7 +145,8 @@ Thursday
 Friday
 Saturday
 Sunday
-</pre>
+```
+
 
 ```python
 # PRINT DIA DO MÊS
@@ -146,7 +157,7 @@ for i in c.itermonthdays(2022, 2):
     print(i)
 ```
 
-<pre>
+```
 0
 0
 0
@@ -182,9 +193,11 @@ for i in c.itermonthdays(2022, 2):
 28
 0
 0
-</pre>
+```
+
 
 # CALENDÁRIO TO HTML
+
 
 ```python
 # GERAR CALENDÁRIO EM HTML 
@@ -194,7 +207,7 @@ txt = hc.formatmonth(2022, 12)
 print(txt)
 ```
 
-<pre>
+```
 <table border="0" cellpadding="0" cellspacing="0" class="month">
 <tr><th colspan="7" class="month">December 2022</th></tr>
 <tr><th class="sun">Sun</th><th class="mon">Mon</th><th class="tue">Tue</th><th class="wed">Wed</th><th class="thu">Thu</th><th class="fri">Fri</th><th class="sat">Sat</th></tr>
@@ -205,5 +218,5 @@ print(txt)
 <tr><td class="sun">25</td><td class="mon">26</td><td class="tue">27</td><td class="wed">28</td><td class="thu">29</td><td class="fri">30</td><td class="sat">31</td></tr>
 </table>
 
-</pre>
+```
 

@@ -1,10 +1,13 @@
+
 # COMBINAÇÃO E PERMUTAÇÃO
+
 
 ```python
 # IMPORTAR MÓDULOS
 
 from itertools import permutations, combinations
 ```
+
 
 ```python
 # CRIAR UM ARRANJO COM TODAS AS COMBINAÇÕES POSSÍVEIS
@@ -15,14 +18,15 @@ for vl in perm:
     print(vl)
 ```
 
-<pre>
+```
 ('A', 'B', 'C')
 ('A', 'C', 'B')
 ('B', 'A', 'C')
 ('B', 'C', 'A')
 ('C', 'A', 'B')
 ('C', 'B', 'A')
-</pre>
+```
+
 
 ```python
 # CRIAR UM ARRANJO COM DOIS ELEMENTOS
@@ -33,14 +37,15 @@ for vl in perm:
     print(vl)
 ```
 
-<pre>
+```
 ('A', 'B')
 ('A', 'C')
 ('B', 'A')
 ('B', 'C')
 ('C', 'A')
 ('C', 'B')
-</pre>
+```
+
 
 ```python
 # CRIAR UM COMBINAÇÃO COM TRÊS ELEMENTOS
@@ -51,9 +56,10 @@ for vl in comb:
     print(vl)
 ```
 
-<pre>
+```
 ('A', 'B', 'C')
-</pre>
+```
+
 
 ```python
 # CRIAR UMA  COMBINAÇÃO COM DOIS ELEMENTOS
@@ -64,9 +70,9 @@ for vl in comb:
     print(vl)
 ```
 
-<pre>
+```
 ('A', 'B')
 ('A', 'C')
 ('B', 'C')
-</pre>
+```
 

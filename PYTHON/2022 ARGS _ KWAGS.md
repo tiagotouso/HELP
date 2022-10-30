@@ -1,6 +1,9 @@
+
 # ARGS & KWAGS
 
+
 # ARGS
+
 
 ```python
 # CRIAR FUNÇÃO ARGS
@@ -9,15 +12,17 @@ def print_lista(*args):
     print(args)
 ```
 
+
 ```python
 # EXECUTAR A FUNÇÃO
 
 print_lista(1)
 ```
 
-<pre>
+```
 (1,)
-</pre>
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -25,9 +30,10 @@ print_lista(1)
 print_lista(1, 2)
 ```
 
-<pre>
+```
 (1, 2)
-</pre>
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -35,9 +41,10 @@ print_lista(1, 2)
 print_lista(1, 2, 3)
 ```
 
-<pre>
+```
 (1, 2, 3)
-</pre>
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -45,9 +52,10 @@ print_lista(1, 2, 3)
 print_lista(1, 2, 3, 'tiago')
 ```
 
-<pre>
+```
 (1, 2, 3, 'tiago')
-</pre>
+```
+
 
 ```python
 # CRIAR A FUNÇÃO ARGS
@@ -58,15 +66,17 @@ def print_listaii(*args):
         print(valores)
 ```
 
+
 ```python
 # EXECUTAR A FUNÇÃO
 
 print_listaii(1)
 ```
 
-<pre>
+```
 1
-</pre>
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -74,13 +84,15 @@ print_listaii(1)
 print_listaii(1, 2, 3)
 ```
 
-<pre>
+```
 1
 2
 3
-</pre>
+```
+
 
 # KWAGS
+
 
 ```python
 # CRIAR A FUNÇÃO KWAGS
@@ -89,15 +101,17 @@ def printii(**kwags):
     print(kwags)
 ```
 
+
 ```python
 # EXECUTAR A FUNÇÃO
 
 printii(nome = 'tiago')
 ```
 
-<pre>
+```
 {'nome': 'tiago'}
-</pre>
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -105,9 +119,10 @@ printii(nome = 'tiago')
 printii(nome = 'tiago', idade = 42 )
 ```
 
-<pre>
+```
 {'nome': 'tiago', 'idade': 42}
-</pre>
+```
+
 
 ```python
 def valor_chave(**kwags):
@@ -116,15 +131,17 @@ def valor_chave(**kwags):
         print(kwags)
 ```
 
+
 ```python
 # EXECUTAR A FUNÇÃO
 
 valor_chave(nome = 'tiago', idade = 42, key = 10)
 ```
 
-<pre>
+```
 {'nome': 'tiago', 'idade': 42, 'key': 10}
-</pre>
+```
+
 
 ```python
 # CRIAR A FUNÇÃO ARGS & KWAGS
@@ -147,14 +164,13 @@ def operacoes(*lista, **funcoes):
     return resultado 
 ```
 
+
 ```python
 # EXECUTAR A FUNÇÃO
 
 operacoes(1, 2, 3)
 ```
 
-<pre>
-{}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -162,8 +178,6 @@ operacoes(1, 2, 3)
 operacoes(1, 2, 3, tipo = 'soma')
 ```
 
-<pre>
-{'soma': 6}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -171,8 +185,6 @@ operacoes(1, 2, 3, tipo = 'soma')
 operacoes(1, 2, 3, tipo = 'média')
 ```
 
-<pre>
-{'média': 2.0}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -180,8 +192,6 @@ operacoes(1, 2, 3, tipo = 'média')
 operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 ```
 
-<pre>
-{'soma': 6, 'min': 1}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -189,8 +199,6 @@ operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 ```
 
-<pre>
-{'soma': 6, 'min': 1}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
@@ -198,15 +206,10 @@ operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 operacoes(1, 2, 3, elemento = 'min')
 ```
 
-<pre>
-{'min': 1}</pre>
 
 ```python
 # EXECUTAR A FUNÇÃO
 
 operacoes(1, 2, 3, elemento = 'max')
 ```
-
-<pre>
-{'max': 3}</pre>
 
