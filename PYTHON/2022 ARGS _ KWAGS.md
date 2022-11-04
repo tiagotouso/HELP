@@ -21,6 +21,7 @@ print_lista(1)
 
 ```
 (1,)
+
 ```
 
 
@@ -32,6 +33,7 @@ print_lista(1, 2)
 
 ```
 (1, 2)
+
 ```
 
 
@@ -43,6 +45,7 @@ print_lista(1, 2, 3)
 
 ```
 (1, 2, 3)
+
 ```
 
 
@@ -54,6 +57,7 @@ print_lista(1, 2, 3, 'tiago')
 
 ```
 (1, 2, 3, 'tiago')
+
 ```
 
 
@@ -75,6 +79,7 @@ print_listaii(1)
 
 ```
 1
+
 ```
 
 
@@ -88,6 +93,7 @@ print_listaii(1, 2, 3)
 1
 2
 3
+
 ```
 
 
@@ -110,6 +116,7 @@ printii(nome = 'tiago')
 
 ```
 {'nome': 'tiago'}
+
 ```
 
 
@@ -121,6 +128,7 @@ printii(nome = 'tiago', idade = 42 )
 
 ```
 {'nome': 'tiago', 'idade': 42}
+
 ```
 
 
@@ -140,6 +148,7 @@ valor_chave(nome = 'tiago', idade = 42, key = 10)
 
 ```
 {'nome': 'tiago', 'idade': 42, 'key': 10}
+
 ```
 
 
@@ -171,11 +180,19 @@ def operacoes(*lista, **funcoes):
 operacoes(1, 2, 3)
 ```
 
+```
+{}
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
 
 operacoes(1, 2, 3, tipo = 'soma')
+```
+
+```
+{'soma': 6}
 ```
 
 
@@ -185,11 +202,8 @@ operacoes(1, 2, 3, tipo = 'soma')
 operacoes(1, 2, 3, tipo = 'média')
 ```
 
-
-```python
-# EXECUTAR A FUNÇÃO
-
-operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
+```
+{'média': 2.0}
 ```
 
 
@@ -197,6 +211,21 @@ operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 # EXECUTAR A FUNÇÃO
 
 operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
+```
+
+```
+{'soma': 6, 'min': 1}
+```
+
+
+```python
+# EXECUTAR A FUNÇÃO
+
+operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
+```
+
+```
+{'soma': 6, 'min': 1}
 ```
 
 
@@ -206,10 +235,18 @@ operacoes(1, 2, 3, tipo = 'soma', elemento = 'min')
 operacoes(1, 2, 3, elemento = 'min')
 ```
 
+```
+{'min': 1}
+```
+
 
 ```python
 # EXECUTAR A FUNÇÃO
 
 operacoes(1, 2, 3, elemento = 'max')
+```
+
+```
+{'max': 3}
 ```
 

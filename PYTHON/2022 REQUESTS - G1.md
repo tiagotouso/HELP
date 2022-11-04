@@ -30,6 +30,10 @@ resposta = requests.get(url)
 resposta.status_code
 ```
 
+```
+200
+```
+
 
 ```python
 # CRIAR O OBJETO SITE
@@ -64,6 +68,7 @@ EleiçõesApós fala de Lula, Bolsonaro diz que 'não tem filé mignon para todo
 Blog da Andréia SadiLista tríplice em aberto é cartada de Lula para negociar com MP e Centrão Petista discute ampliar para 6 a relação de indicações para a PGR.Há 3 horas Blog da Andréia Sadi 
 
 Campanha na TV e no rádioHorário eleitoral começa hoje; veja o que pode e o que não pode1º dia terá candidatos a senador, deputado estadual e governador.Há 5 horas Eleições 2022 
+
 
 ```
 
@@ -123,6 +128,7 @@ TITULO: Horário eleitoral começa hoje; veja o que pode e o que não pode
 NOTÍCIA: 1º dia terá candidatos a senador, deputado estadual e governador.
 LINK: https://g1.globo.com/politica/eleicoes/2022/noticia/2022/08/26/propaganda-eleitoral-na-tv-e-no-radio-comeca-nesta-sexta-feira-conheca-as-regras.ghtml
 --------------------
+
 
 ```
 

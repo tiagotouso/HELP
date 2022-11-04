@@ -18,6 +18,10 @@ alphabet = string.ascii_letters + string.digits
 alphabet
 ```
 
+```
+'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+```
+
 
 ```python
 # CRIAR UM PASSWORD
@@ -27,6 +31,10 @@ password = ''.join(secrets.choice(alphabet) for i in range(8))
 password
 ```
 
+```
+'PkmVEcDf'
+```
+
 
 ```python
 # CRIAR UM PASSWORD
@@ -34,6 +42,10 @@ password
 password = ''.join(secrets.choice(alphabet) for i in range(16))
 
 password
+```
+
+```
+'8AB48i3uwW4Yc0Ks'
 ```
 
 
@@ -50,6 +62,10 @@ while True:
 password
 ```
 
+```
+'XD8Uov9u9Y'
+```
+
 
 ```python
 # CRIAR UMA URL SECRETS
@@ -57,5 +73,9 @@ password
 url = 'https://example.com/reset=' + secrets.token_urlsafe()
 
 url
+```
+
+```
+'https://example.com/reset=vMc5aD9sLz4dT5miIE6NgWAmsqvIMXHEgZdqP75_ay0'
 ```
 

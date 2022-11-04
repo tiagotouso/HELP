@@ -24,6 +24,7 @@ contador = -1
 Python 3.9.7
 matplotlib: 3.4.3
 
+
 ```
 
 
@@ -36,7 +37,8 @@ for vl in lista:
 ```
 
 ```
-Solarize_Light2 ; _classic_test_patch ; bmh ; classic ; dark_background ; fast ; fivethirtyeight ; ggplot ; grayscale ; seaborn ; seaborn-bright ; seaborn-colorblind ; seaborn-dark ; seaborn-dark-palette ; seaborn-darkgrid ; seaborn-deep ; seaborn-muted ; seaborn-notebook ; seaborn-paper ; seaborn-pastel ; seaborn-poster ; seaborn-talk ; seaborn-ticks ; seaborn-white ; seaborn-whitegrid ; tableau-colorblind10 ; ```
+Solarize_Light2 ; _classic_test_patch ; bmh ; classic ; dark_background ; fast ; fivethirtyeight ; ggplot ; grayscale ; seaborn ; seaborn-bright ; seaborn-colorblind ; seaborn-dark ; seaborn-dark-palette ; seaborn-darkgrid ; seaborn-deep ; seaborn-muted ; seaborn-notebook ; seaborn-paper ; seaborn-pastel ; seaborn-poster ; seaborn-talk ; seaborn-ticks ; seaborn-white ; seaborn-whitegrid ; tableau-colorblind10 ; 
+```
 
 
 ```python
@@ -53,10 +55,12 @@ plt.show()
 
 ```
 Solarize_Light2
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_000.png)
+```
+<Figure size 720x216 with 1 Axes>
+```
 
 
 ```python
@@ -71,10 +75,12 @@ plt.show()
 
 ```
 _classic_test_patch
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_001.png)
+```
+<Figure size 720x216 with 1 Axes>
+```
 
 
 ```python
@@ -89,10 +95,12 @@ plt.show()
 
 ```
 bmh
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_002.png)
+```
+<Figure size 720x216 with 1 Axes>
+```
 
 
 ```python
@@ -107,10 +115,12 @@ plt.show()
 
 ```
 classic
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_003.png)
+```
+<Figure size 720x216 with 1 Axes>
+```
 
 
 ```python
@@ -125,10 +135,12 @@ plt.show()
 
 ```
 dark_background
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_004.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -143,10 +155,12 @@ plt.show()
 
 ```
 fast
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_005.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -161,10 +175,12 @@ plt.show()
 
 ```
 fivethirtyeight
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_006.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -179,10 +195,12 @@ plt.show()
 
 ```
 ggplot
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_007.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -197,10 +215,12 @@ plt.show()
 
 ```
 grayscale
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_008.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -215,10 +235,12 @@ plt.show()
 
 ```
 seaborn
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_009.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -233,10 +255,12 @@ plt.show()
 
 ```
 seaborn-bright
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_010.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -251,10 +275,12 @@ plt.show()
 
 ```
 seaborn-colorblind
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_011.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -269,10 +295,12 @@ plt.show()
 
 ```
 seaborn-dark
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_012.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -287,10 +315,12 @@ plt.show()
 
 ```
 seaborn-dark-palette
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_013.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -305,10 +335,12 @@ plt.show()
 
 ```
 seaborn-darkgrid
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_014.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -323,10 +355,12 @@ plt.show()
 
 ```
 seaborn-deep
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_015.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -341,10 +375,12 @@ plt.show()
 
 ```
 seaborn-muted
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_016.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -359,10 +395,12 @@ plt.show()
 
 ```
 seaborn-notebook
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_017.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -377,10 +415,12 @@ plt.show()
 
 ```
 seaborn-paper
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_018.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -395,10 +435,12 @@ plt.show()
 
 ```
 seaborn-pastel
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_019.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -413,10 +455,12 @@ plt.show()
 
 ```
 seaborn-poster
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_020.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -431,10 +475,12 @@ plt.show()
 
 ```
 seaborn-talk
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_021.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -449,10 +495,12 @@ plt.show()
 
 ```
 seaborn-ticks
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_022.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -467,10 +515,12 @@ plt.show()
 
 ```
 seaborn-white
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_023.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -485,10 +535,12 @@ plt.show()
 
 ```
 seaborn-whitegrid
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_024.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 
 
 ```python
@@ -503,8 +555,10 @@ plt.show()
 
 ```
 tableau-colorblind10
+
 ```
 
-
-![image](img//2021_STYLE_PLOT_ipynb_025.png)
+```
+<Figure size 800x240 with 1 Axes>
+```
 

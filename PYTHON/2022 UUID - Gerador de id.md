@@ -16,11 +16,19 @@ id1 = uuid.uuid1()
 id1
 ```
 
+```
+UUID('929c60bb-4c19-11ed-b886-e454e8023acc')
+```
+
 
 ```python
 # EXIBIR INFORMAÇÃO DO ID
 
 id1.bytes
+```
+
+```
+b'\x92\x9c`\xbbL\x19\x11\xed\xb8\x86\xe4T\xe8\x02:\xcc'
 ```
 
 
@@ -30,11 +38,19 @@ id1.bytes
 id1.int
 ```
 
+```
+194879247645068659839116128365893008076
+```
+
 
 ```python
 # EXIBIR INFORMAÇÃO DO ID
 
 id1.hex
+```
+
+```
+'929c60bb4c1911edb886e454e8023acc'
 ```
 
 
@@ -44,6 +60,10 @@ id1.hex
 id1.variant
 ```
 
+```
+'specified in RFC 4122'
+```
+
 
 ```python
 # EXIBIR INFORMAÇÃO DO ID
@@ -51,11 +71,19 @@ id1.variant
 id1.fields
 ```
 
+```
+(2459721915, 19481, 4589, 184, 134, 251053320846028)
+```
+
 
 ```python
 # EXIBIR INFORMAÇÃO DO ID
 
 id1.node
+```
+
+```
+251053320846028
 ```
 
 
@@ -74,6 +102,7 @@ for node in [0x1cf5c0c27837,  0x1b0702e8ff4e, 0x7fcec9fb9f40, 0x3139b78d213b, 0x
 93a7b60a-4c19-11ed-9092-7fcec9fb9f40
 93a7b60b-4c19-11ed-9092-3139b78d213b
 93a7b60c-4c19-11ed-9092-a358f02dc954
+
 ```
 
 
@@ -86,6 +115,7 @@ print(id3)
 
 ```
 cc4bc6fc-6402-3192-88c0-e83a8fbe5113
+
 ```
 
 
@@ -98,6 +128,7 @@ print(id4)
 
 ```
 49b05e62-729c-4a48-9072-5cbf40dc2dbd
+
 ```
 
 
@@ -110,5 +141,6 @@ print(id5)
 
 ```
 f5f5c2d8-26ef-52a4-8c26-4546f212ce36
+
 ```
 

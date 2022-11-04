@@ -1,5 +1,60 @@
 # LINUX
 
+## DIRETÓRIOS
+Raiz
+> /
+
+> bin/  
+
+> dev/  
+
+Pasta dos usuários
+> home/  
+
+> lib/  
+
+> media/  
+
+> opt/   
+
+Pasta do super usuário
+> root/  
+
+> sbin/   
+
+> srv/  
+
+> tmp/  
+
+> var/    
+
+> boot/  
+
+> etc/  
+
+> init*  
+
+> lib64/  
+
+> mnt/   
+
+> proc/  
+
+> run/  
+
+> sbin???@  
+
+> sys/  
+
+> usr/
+
+
+## COMANDOS
+
+
+
+### LISTAR DIRETÓRIO E ARQUIVOS
+
 ls
 
 ```
@@ -33,20 +88,6 @@ ls -l -r
 Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ```
 
-pwd
-
-```
-/home/sysadmin
-```
-
-cd  
-cd ..  
-cd ~  
-/
-```
-/
-```
-
 ls -l /var/log/
 
 ```
@@ -66,4 +107,65 @@ drwxr-xr-x 2 root   root   4096 Dec  7  2017 fsck
 -rw-r----- 1 syslog adm   13639 Oct 18 23:17 syslog                             
 drwxr-xr-x 2 root   root   4096 Apr 11  2014 upstart                            
 -rw-rw-r-- 1 root   utmp    384 Oct 18 23:11 wtmp 
+```
+
+l /
+
+```
+bin/   dev/  home/  lib/    media/  opt/   root/  sbin/     srv/  tmp/  var/    
+boot/  etc/  init*  lib64/  mnt/    proc/  run/   sbin???@  sys/  usr/
+```
+
+ls
+```
+bin   dev  home  lib    media  opt   root  sbin     srv  tmp  var               
+boot  etc  init  lib64  mnt    proc  run   sbin???  sys  usr
+``` 
+
+
+### ACESSAR DIRETÓRIOS
+
+cd ~ 
+
+```
+/home/sysadmin 
+``` 
+
+cd .. 
+
+```
+/home 
+``` 
+
+cd sysadmin  
+
+```
+/home/sysadmin 
+``` 
+
+cd /
+
+```
+/
+```
+
+cd ~  
+
+```
+/home/sysadmin 
+``` 
+
+### VERIFICAR QUAL DIRETÓRIO ESTÁ ACESSANDO
+
+pwd
+
+```
+/home/sysadmin
+```
+
+### LIMPAR TELA
+clear
+```
+
+
 ```

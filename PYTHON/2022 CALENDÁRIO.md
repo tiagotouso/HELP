@@ -28,6 +28,7 @@ Mo Tu We Th Fr Sa Su
 20 21 22 23 24 25 26
 27 28 29 30
 
+
 ```
 
 
@@ -48,6 +49,7 @@ Mo Tu We Th Fr Sa Su
 12 13 14 15 16 17 18
 19 20 21 22 23 24 25
 26 27 28 29 30 31
+
 
 ```
 
@@ -100,6 +102,7 @@ Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa      Su Mo Tu We Th Fr Sa
 23 24 25 26 27 28 29      27 28 29 30               25 26 27 28 29 30 31
 30 31
 
+
 ```
 
 
@@ -127,6 +130,7 @@ September
 October
 November
 December
+
 ```
 
 
@@ -145,6 +149,7 @@ Thursday
 Friday
 Saturday
 Sunday
+
 ```
 
 
@@ -193,6 +198,7 @@ for i in c.itermonthdays(2022, 2):
 28
 0
 0
+
 ```
 
 
@@ -217,6 +223,7 @@ print(txt)
 <tr><td class="sun">18</td><td class="mon">19</td><td class="tue">20</td><td class="wed">21</td><td class="thu">22</td><td class="fri">23</td><td class="sat">24</td></tr>
 <tr><td class="sun">25</td><td class="mon">26</td><td class="tue">27</td><td class="wed">28</td><td class="thu">29</td><td class="fri">30</td><td class="sat">31</td></tr>
 </table>
+
 
 ```
 
